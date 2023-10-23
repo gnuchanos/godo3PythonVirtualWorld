@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/tardisON.ogg-179e5a47b4da60e69bace0fee84e8afd.oggstr"
+
+[deps]
+
+source_file="res://dataFiles/Sound/Effects/tardisON.ogg"
+dest_files=[ "res://.import/tardisON.ogg-179e5a47b4da60e69bace0fee84e8afd.oggstr" ]
+
+[params]
+
+loop=false
+loop_offset=0

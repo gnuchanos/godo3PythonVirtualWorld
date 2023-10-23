@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tardisidl.mp3-a0a3acf1c36602289624b6890c314a1f.mp3str"
+
+[deps]
+
+source_file="res://dataFiles/Sound/Effects/tardisidl.mp3"
+dest_files=[ "res://.import/tardisidl.mp3-a0a3acf1c36602289624b6890c314a1f.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tardisProblem.mp3-d3ad0043869c9f2461ff7d31cfeda964.mp3str"
+
+[deps]
+
+source_file="res://dataFiles/Sound/Effects/tardisProblem.mp3"
+dest_files=[ "res://.import/tardisProblem.mp3-d3ad0043869c9f2461ff7d31cfeda964.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

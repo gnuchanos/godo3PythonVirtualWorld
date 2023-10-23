@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/tardisLanding.mp3-470c5ad9709b3c3bcf8883790d38a4c5.mp3str"
+
+[deps]
+
+source_file="res://dataFiles/Sound/Effects/tardisLanding.mp3"
+dest_files=[ "res://.import/tardisLanding.mp3-470c5ad9709b3c3bcf8883790d38a4c5.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

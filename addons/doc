@@ -1,0 +1,24 @@
+# get .text value
+
+userName = export(str) # int/float/str/dict/list/bool/
+
+# get_
+------------------------------------------------------------------------------------------------------
+self.get_tree().change_scene("res://dataFiles/Programs/WindowManager.tscn")
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+self.userName = self.get_node("VBoxContainer/userName") <-- this is lineEdit
+	self.userName.text <-- get value
+
+ekstra userName is lineEdit
+self.userName.visible = False
+self.userName.grab_focus()
+------------------------------------------------------------------------------------------------------
+
+------------------------------------------------------------------------------------------------------
+# working func list
+press button easy way copy signal name atach with .py script copy signal name
+def _testButton_signal(self):
+	print("button pressed")
+------------------------------------------------------------------------------------------------------
