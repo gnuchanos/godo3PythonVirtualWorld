@@ -59,7 +59,7 @@ func _physics_process(delta):
 		else:
 			speed = 0
 	direction = Vector3(h_input, 0, f_input).rotated(Vector3.UP, h_rot).normalized()
-	
+
 	#jumping and gravity
 	if is_on_floor():
 		snap = -get_floor_normal()
@@ -69,16 +69,11 @@ func _physics_process(delta):
 		snap = Vector3.DOWN
 		accel = ACCEL_AIR
 		gravity_vec += Vector3.DOWN * gravity * delta
-		
 	if Input.is_action_just_pressed("jump") and is_on_floor():
 		snap = Vector3.ZERO
 		gravity_vec = Vector3.UP * jump
-	
+
 	#make it move
 	velocity = velocity.linear_interpolate(direction * speed, accel * delta)
 	movement = velocity + gravity_vec
-	
 	move_and_slide_with_snap(movement, snap, Vector3.UP)
-	
-	
-	

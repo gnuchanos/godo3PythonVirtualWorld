@@ -293,7 +293,6 @@ script = ExtResource( 11 )
 
 [node name="travelSound" type="AudioStreamPlayer" parent="3dScene/tardisInside"]
 stream = ExtResource( 12 )
-mix_target = 1
 
 [node name="Camera" type="Camera" parent="3dScene/tardisInside"]
 transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0.238797, 3.54166, 11.4412 )

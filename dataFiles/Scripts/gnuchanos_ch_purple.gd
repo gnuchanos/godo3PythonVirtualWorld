@@ -8,7 +8,7 @@ func _ready():
 	var new_albedo_texture : Texture = load("res://dataFiles/3D/players/gnuchanUnityBeta/faces/normal_face.png")
 	material_instance.albedo_texture = new_albedo_texture
 
-func _process(delta):
+func _process(_delta):
 	if Input.is_action_just_pressed("1"):
 		var new_albedo_texture : Texture = load("res://dataFiles/3D/players/gnuchanUnityBeta/faces/normal_face.png")
 		material_instance.albedo_texture = new_albedo_texture
